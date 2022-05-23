@@ -33,10 +33,10 @@ export const Map = (props: MapProps) => {
     // TODO not sure why I had to modify the lat and lng so much, should investigate that
     <MapContainer
       crs={CRS.Simple}
-      center={{ lat: 451.505, lng: 800 }}
+      center={{ lat: 4100, lng: 4100 }}
       maxZoom={1}
       minZoom={-3}
-      zoom={0}
+      zoom={-3}
       bounds={imageBounds}
     >
       <ImageOverlay url={imageUrl} bounds={imageBounds} />
