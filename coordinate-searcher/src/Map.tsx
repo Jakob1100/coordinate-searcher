@@ -35,7 +35,7 @@ export const Map = (props: MapProps) => {
       crs={CRS.Simple}
       center={{ lat: 451.505, lng: 800 }}
       maxZoom={1}
-      minZoom={-2.5}
+      minZoom={-3}
       zoom={0}
       bounds={imageBounds}
     >
